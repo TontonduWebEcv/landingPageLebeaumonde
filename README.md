@@ -3,7 +3,7 @@
 ### Installation
 cloner le projet :
 
-```git clone + lien que l'on trouve dans l'onglet code```
+```git clone + lien que l'on trouve dans l'onglet vert code```
 
 se mettre dans le dossier landingPageLebeaumonde/lebeaumonde
 
