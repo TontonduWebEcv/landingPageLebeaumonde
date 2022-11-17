@@ -3,34 +3,85 @@ import Container from "../layouts/Container.astro";
 ---
 
 <Container>
-  <ul
-    role="list"
-    class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
-  >
-    <li
-      class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow"
-    >
-      <div class="flex flex-1 flex-col p-8">
-        <img
-          class="mx-auto h-32 w-32 flex-shrink-0 rounded-full"
-          src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
-          alt=""
-        />
-        <h3 class="mt-6 text-sm font-medium text-gray-900">Jane Cooper</h3>
-        <dl class="mt-1 flex flex-grow flex-col justify-between">
-          <dt class="sr-only">Title</dt>
-          <dd class="text-sm text-gray-500">Paradigm Representative</dd>
-          <dt class="sr-only">Role</dt>
-          <dd class="mt-3">
-            <span
-              class="rounded-full bg-green-100 px-2 py-1 text-xs font-medium text-green-800"
-              >Admin</span
+  <div style="height:665px">
+    <ul role="list" class="flex justify-center" style="margin-top:160px;">
+      <li
+        class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow drop-shadow-lg"
+        style="width: 300px;height:380px;margin-right:20px;"
+      >
+        <div class="flex flex-1 flex-col p-8">
+          <img
+            class="mx-auto h-32 w-32 flex-shrink-0 rounded-full"
+            src="/image-13.png"
+            alt=""
+          />
+          <h3 class="mt-6 text-lg" style="font-size: 22px;">
+            <bold>Baptiste</bold>, 25 ans
+          </h3>
+          <dl class="mt-1 flex flex-grow flex-col justify-between">
+            <dt class="sr-only">Title</dt>
+            <dd
+              class="text-sm"
+              style="font-style: light;font-size:18px;color:#3F3F3F;"
             >
-          </dd>
-        </dl>
-      </div>
-    </li>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              semper aliquam nisi, sed pharetra nisl sagittis rutrum.
+            </dd>
+          </dl>
+        </div>
+      </li>
+      <li
+        class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow drop-shadow-lg"
+        style="width: 300px;height:380px;margin-right:20px;"
+      >
+        <div class="flex flex-1 flex-col p-8">
+          <img
+            class="mx-auto h-32 w-32 flex-shrink-0 rounded-full"
+            src="/image-14.png"
+            alt=""
+          />
+          <h3 class="mt-6 text-lg" style="font-size: 22px;">
+            <bold>Pascale</bold>, 46 ans
+          </h3>
+          <dl class="mt-1 flex flex-grow flex-col justify-between">
+            <dt class="sr-only">Title</dt>
+            <dd
+              class="text-sm"
+              style="font-style: light;font-size:18px;color:#3F3F3F;"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              semper aliquam nisi, sed pharetra nisl sagittis rutrum.
+            </dd>
+          </dl>
+        </div>
+      </li>
+      <li
+        class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow drop-shadow-lg"
+        style="width: 300px;height:380px"
+      >
+        <div class="flex flex-1 flex-col p-8">
+          <img
+            class="mx-auto h-32 w-32 flex-shrink-0 rounded-full"
+            src="/image-17.png"
+            alt="persona"
+          />
+          <h3 class="mt-6 text-lg" style="font-size: 22px;">
+            <bold>Benoit</bold>, 19 ans
+          </h3>
+          <dl class="mt-1 flex flex-grow flex-col justify-between">
+            <dt class="sr-only">Title</dt>
+            <dd
+              class="text-sm"
+              style="font-style: light;font-size:18px;color:#3F3F3F;"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              semper aliquam nisi, sed pharetra nisl sagittis rutrum.
+            </dd>
+          </dl>
+        </div>
+      </li>
 
-    <!-- More people... -->
-  </ul>
+      <!-- More people... -->
+    </ul>
+  </div>
 </Container>
