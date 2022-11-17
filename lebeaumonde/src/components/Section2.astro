@@ -1,0 +1,73 @@
+---
+import Container from "../layouts/Container.astro";
+import wireMaps from "/wireframes-maps.png";
+import asso1 from "/asso-1677.png";
+import asso2 from "/asso-1678.png";
+import asso3 from "/asso-1679.png";
+---
+
+<Container bgColor="beige-nounours">
+  <div class="grid grid-cols-2 gap-4 bg-beige-nounours" style="height: 700px;">
+    <div class="">
+      <img class="absolute" style="top: 715px" src={wireMaps} alt="wire-maps" />
+      <img class="relative" style="left: 176px" src={asso3} alt="wire-asso3" />
+      <img class="relative" style="left: 238px" src={asso2} alt="wire-asso2" />
+      <img class="relative" style="left: 240px" src={asso1} alt="wire-asso1" />
+    </div>
+    <div class="sm:text-center lg:text-left">
+      <h2
+        class="text-4xl mt-3 font-bold tracking-tight text-black sm:text-5xl md:text-4xl"
+      >
+        <span class="block xl:inline">Des missions à côté de chez vous</span>
+      </h2>
+      <p
+        class="mt-3 text-base text-black sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0"
+      >
+        On propose du concret, grâce à notre outil tu peux faire l’état des
+        lieux de ce que tu as mis en place dans ton quotidien mais aussi trouver
+        des missions à effectuer autour de chez toi ! Avec de nombreux
+        partenaires à nos côtés :
+      </p>
+      <div class="grid grid-cols-2 gap-2 mt-12" style="width: 400px">
+        <div class="grid grid-rows-2">
+          <div>
+            <span class="text-2xl font-bold mt-3">+ 50</span>
+          </div>
+          <div>
+            <span>associations</span>
+          </div>
+        </div>
+        <div class="grid grid-rows-2">
+          <div>
+            <span class="text-2xl font-bold mt-3">15</span>
+          </div>
+          <div>
+            <span>entreprises</span>
+          </div>
+        </div>
+      </div>
+      <div class="mt-8 sm:mt-32 sm:flex sm:justify-center lg:justify-start">
+        <button
+          type="button"
+          class="inline-flex items-center rounded-md border border-transparent bg-green-sapin px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+        >
+          Démarrer l’expérience
+          <svg
+            class="ml-3 -mr-1 h-5 w-5"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</Container>
