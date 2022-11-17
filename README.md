@@ -5,8 +5,10 @@ cloner le projet : git clone + lien
 
 se mettre dans le dossier landingPageLebeaumonde/lebeaumonde
 
-* faire npm install 
+Taper les commandes:
 
-* faire npm run dev
+ ```npm install```
+
+ ```npm run dev```
 
 * accéder au localhost
